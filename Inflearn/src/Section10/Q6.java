@@ -27,7 +27,7 @@ public class Q6 {
                 dy[j] = Math.max(dy[j], dy[j - time] + score);
             }
         }
-        
+
         System.out.println(dy[M]);
     }
 }
