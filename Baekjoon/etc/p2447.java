@@ -19,8 +19,8 @@ public class p2447 {
         recur(0, 0, N, false);
         StringBuilder sb = new StringBuilder();
 
-        for (int i = 0; i < 9; i++) {
-            for (int j = 0; j < 9; j++) {
+        for (int i = 0; i < N; i++) {
+            for (int j = 0; j < N; j++) {
                 sb.append(arr[i][j]);
             }
             sb.append('\n');
